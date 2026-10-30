@@ -27,7 +27,7 @@ class HomePage extends ConsumerWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              const ProfileHeader(name: 'Yudis'),
+              const ProfileHeader(name: 'Rafael'),
               const SizedBox(height: 20),
               BalanceCard(
                 balance: formatRupiah(balance),
